@@ -1,0 +1,87 @@
+.symptom-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border: 1px solid rgba(255,255,255,0.8);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.symptom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(74, 144, 226, 0.15);
+}
+
+.symptom-card:hover i {
+  transform: scale(1.1);
+}
+
+.symptom-card:hover span {
+  color: #4A90E2;
+}
+
+.symptom-card i {
+  font-size: 2.5rem;
+  color: #4A90E2;
+  margin-bottom: 15px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.symptom-card span {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.category-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border: 1px solid rgba(255,255,255,0.8);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(74, 144, 226, 0.15);
+}
+
+.category-card:hover i {
+  transform: scale(1.1);
+}
+
+.category-card:hover h3 {
+  color: #4A90E2;
+}
+
+.category-card i {
+  font-size: 2.5rem;
+  color: #4A90E2;
+  margin-bottom: 15px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.category-card h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.category-card p {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0;
+  line-height: 1.5;
+}
